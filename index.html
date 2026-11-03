@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#170f20">
+<title>Para minha Nathy ♡</title>
+<style>
+:root{--bg:#170f20;--panel:#24182d;--panel2:#302039;--rose:#a83255;--pink:#f0c5d8;--lav:#d8b8e8;--muted:#c7b6ce;--gold:#e7c4a4}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% 0%,#44243d 0%,#211426 42%,var(--bg) 78%);color:#f8edf7;font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#fff 0.7px,transparent .8px);background-size:34px 34px;mask-image:linear-gradient(to bottom,black,transparent 85%)}
+main{width:min(100% - 32px,680px);margin:auto;padding:28px 0 48px}.screen{min-height:calc(100svh - 76px);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative}.eyebrow{font:600 10px/1.5 system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:var(--lav)}h1,h2,p{margin-top:0}.cover h1{font-size:clamp(38px,10vw,66px);font-weight:400;line-height:1.04;margin:18px 0 12px}.cover p{color:#ddcbdc;font-size:17px;line-height:1.65;max-width:420px}.rose{font-size:58px;filter:drop-shadow(0 0 18px #a8325570);animation:float 4s ease-in-out infinite}.rule{height:1px;width:110px;background:linear-gradient(90deg,transparent,var(--rose),transparent);margin:24px auto}.btn{appearance:none;border:1px solid #b77b9b;background:linear-gradient(135deg,#73334f,#49233f);color:#fff7fb;border-radius:999px;padding:15px 24px;font:600 14px system-ui,sans-serif;letter-spacing:.02em;cursor:pointer;box-shadow:0 8px 30px #09050b66;transition:transform .2s,filter .2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.12)}.btn:focus-visible{outline:3px solid var(--pink);outline-offset:4px}.small{font:12px system-ui,sans-serif;color:#bca9c3;margin-top:18px}.hidden{display:none!important}.intro{text-align:center;padding:35px 0 22px}.intro h2{font-size:clamp(30px,8vw,44px);font-weight:400;margin:12px 0}.intro p{color:var(--muted);line-height:1.6}.cards{display:grid;gap:14px}.card{background:linear-gradient(145deg,#34213b,#211627);border:1px solid #70485f88;border-radius:20px;padding:20px;box-shadow:0 12px 34px #08050b55}.card-head{display:flex;align-items:center;gap:13px;text-align:left}.symbol{width:46px;height:46px;display:grid;place-items:center;border-radius:14px;background:#583249;color:#f4c9df;font-size:23px;flex:none}.card h3{font-size:22px;font-weight:400;margin:0 0 4px}.sub{font:12px system-ui,sans-serif;color:#c7b2ce}.tag{margin-left:auto;font:10px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#e6bed5;border:1px solid #87566e;border-radius:99px;padding:6px 9px}.reveal{display:none;border-top:1px solid #76536f;margin-top:17px;padding-top:16px;text-align:left;color:#f1e4f1;font-size:16px;line-height:1.8;white-space:pre-line}.card.open .reveal{display:block}.card.open .tag{display:none}.openbtn{margin-top:16px;width:100%;background:#4b304f;border:1px solid #8b648e;color:#f8eefa;border-radius:12px;padding:12px;font:600 13px system-ui,sans-serif;cursor:pointer}.card.open .openbtn{display:none}.closing{margin:26px 0 0;text-align:center;padding:26px 18px;border:1px solid #70485f88;border-radius:20px;background:linear-gradient(145deg,#2d1c35,#1d1424)}.closing h2{font-size:27px;font-weight:400;color:var(--pink);margin:12px 0}.closing p{color:#d7c6dc;line-height:1.7}.signature{color:var(--lav);font-style:italic;font-size:20px}.footer{text-align:center;color:#927d9b;font:11px system-ui,sans-serif;padding:28px 0 0}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+<section class="screen cover" id="cover">
+  <div class="eyebrow">um pequeno presente, feito com carinho</div>
+  <div class="rose" aria-hidden="true">🌹</div>
+  <h1>Para minha<br><span style="color:var(--pink)">Nathy</span> ♡</h1>
+  <p>Tenho algumas coisas guardadas aqui que gostaria que você lesse com calma.</p>
+  <div class="rule"></div>
+  <button class="btn" id="start">Abrir meu presente ♡</button>
+  <div class="small">feito especialmente para você</div>
+</section>
+<section id="gift" class="hidden">
+  <header class="intro">
+    <div class="eyebrow">três pequenos pedaços do meu carinho</div>
+    <h2>Antes de tudo, Nathy...</h2>
+    <p>Quero te lembrar de algumas coisas. Abra cada surpresa no seu tempo. ♡</p>
+  </header>
+  <div class="cards">
+    <article class="card">
+      <div class="card-head"><div class="symbol">♡</div><div><h3>O nosso começo</h3><div class="sub">Uma data que guardo com carinho</div></div><span class="tag">Surpresa 01</span></div>
+      <div class="reveal">28 de abril de 2025.
+
+Às 20h31, nossa história começou a ganhar forma. Às 20h32, você aceitou. É engraçado pensar que apenas um minuto separa esses dois momentos, mas que tantas coisas poderiam nascer dali.
+
+Naquela época, talvez nenhum de nós imaginasse tudo o que ainda viveríamos.
+
+Hoje, quando olho para essa data, não penso apenas no começo de um namoro. Penso no começo de uma história que passou a ter espaço na minha vida e que me trouxe alguém que se tornou muito especial para mim.
+
+E eu gosto de poder olhar para trás e lembrar que tudo começou com você. ♡</div>
+      <button class="openbtn">Revelar lembrança ♡</button>
+    </article>
+    <article class="card">
+      <div class="card-head"><div class="symbol">✿</div><div><h3>Quem você é</h3><div class="sub">Uma coisa que quero que você enxergue</div></div><span class="tag">Surpresa 02</span></div>
+      <div class="reveal">Nathy, existe algo muito bonito na sua maneira de ser.
+
+Você é uma garota amigável, alguém que possui uma maneira própria de tratar as pessoas e de se relacionar com o mundo.
+
+Também admiro sua maturidade, a maneira como você consegue enxergar determinadas situações e como possui suas próprias formas de pensar.
+
+Mas não quero que você pense que sua importância está apenas nessas características.
+
+Você é uma pessoa legal, interessante e cheia de qualidades que merecem ser reconhecidas. Gosto de conhecer suas opiniões, suas brincadeiras, seus jeitinhos e até aquelas pequenas particularidades que fazem você ser justamente você.
+
+Espero que, mesmo nos dias em que tiver dificuldade de enxergar algo bom em si mesma, consiga lembrar que existe muito mais em você do que aquilo que suas inseguranças permitem enxergar.
+
+Você não precisa ser diferente para ser alguém especial. ♡</div>
+      <button class="openbtn">Revelar o que vejo em você ♡</button>
+    </article>
+    <article class="card">
+      <div class="card-head"><div class="symbol">🗝</div><div><h3>O que ainda quero viver</h3><div class="sub">Uma promessa para nós dois</div></div><span class="tag">Surpresa 03</span></div>
+      <div class="reveal">Quero continuar aprendendo a cuidar do nosso relacionamento. Ter paciência, saber ouvir, compreender seus sentimentos e também compartilhar os meus.
+
+Não prometo ser perfeito, mas quero que minhas atitudes acompanhem aquilo que digo.
+
+Quero construir momentos bons ao seu lado, um dia de cada vez.
+
+Quero continuar conhecendo você, mesmo nas pequenas coisas que ainda tenho para descobrir. Quero que a gente possa amadurecer juntos, aprender com nossas experiências e encontrar maneiras cada vez melhores de cuidar um do outro.
+
+Não quero que nosso relacionamento seja apenas sobre os momentos bonitos, mas também sobre a maneira como escolhemos nos compreender nos dias mais difíceis.
+
+Porque, entre tantas coisas que ainda desejo viver, uma delas é continuar tendo a oportunidade de escolher você e construir nossa história juntos. ♡</div>
+      <button class="openbtn">Revelar minha promessa ♡</button>
+    </article>
+  </div>
+  <section class="closing">
+    <div class="rose" style="font-size:38px">🌹</div>
+    <div class="eyebrow">e uma última coisinha</div>
+    <h2>Obrigado por fazer parte da minha história.</h2>
+    <p>Que você nunca se esqueça do quanto é importante e de que merece reconhecer as coisas bonitas que existem em você.</p>
+    <div class="signature">Eu te amo. ♡</div>
+    <p style="margin:12px 0 0;font-size:13px">Com carinho, Wendell.</p>
+  </section>
+  <div class="footer">feito com carinho • para Nathy ♡</div>
+</section>
+</main>
+<script>
+const start=document.getElementById('start');
+start.addEventListener('click',()=>{document.getElementById('cover').classList.add('hidden');document.getElementById('gift').classList.remove('hidden');window.scrollTo({top:0,behavior:'smooth'});});
+document.querySelectorAll('.openbtn').forEach(button=>button.addEventListener('click',()=>{const card=button.closest('.card');card.classList.add('open');button.setAttribute('aria-expanded','true');}));
+</script>
+</body>
+</html>
